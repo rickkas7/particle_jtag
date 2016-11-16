@@ -267,11 +267,11 @@ After you're connected OpenOCD to your hardware device and opened the telnet ses
 ```
 > reset halt
 > flash protect 0 0 0 off
-> program /Users/rickk/Downloads/bootloader_photon.bin verify 
+> program /Users/rickk/Downloads/bootloader-photon.bin verify 0x08000000
 > flash protect 0 0 0 on
 ```
 
-You'll need to edit the path to the bootloader_photon.bin file. You need to specify a full path to the directory as well as filename.
+You'll need to edit the path to the bootloader-photon.bin file. You need to specify a full path to the directory as well as filename.
 
 ### Programming system and user firmware
 
