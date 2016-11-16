@@ -75,9 +75,9 @@ Select **Connect** from the **Target** menu or use the toolbar icon. It should l
 
 The bootloader is different for each type of device and changes infrequently. Download the appropriate one for your device:
 
-- Photon (0.4.9)
-- P1 (0.4.9)
-- Electron  (0.4.8)
+- [Photon](https://github.com/rickkas7/particle_jtag/blob/master/files/bootloader-photon.bin?raw=true) (0.4.9)
+- [P1](https://github.com/rickkas7/particle_jtag/blob/master/files/bootloader-p1.bin?raw=true) (0.4.9)
+- [Electron](https://github.com/rickkas7/particle_jtag/blob/master/files/bootloader-electron.bin?raw=true) (0.4.8)
 
 Use the **Program and Verify** menu item from the **Target** menu. The dialog looks like this:
 
@@ -163,7 +163,7 @@ brew install openocd
 
 If you don't have Homebrew installed, you can follow the [OpenOCD Mac instructions](http://openocd.org/doc-release/README.OSX). 
 
-If you are using the Particle Programmer shield you will also need to install the board file for it. Download the file particle-ftdi.cfg and put it in your install location, typically:
+If you are using the Particle Programmer shield you will also need to install the board file for it. Download the file [particle-ftdi.cfg](https://github.com/rickkas7/particle_jtag/blob/master/files/particle-ftdi.cfg?raw=true) and put it in your install location, typically:
 
 ```
 /usr/local/share/openocd/scripts/interface/ftdi/
